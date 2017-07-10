@@ -1,7 +1,7 @@
 {
-  "name": "grunt-html5-boilerplate",
-  "version": "0.0.0",
-  "description": "Grunt HTML5 Boilerplate is an HTML5 boilerplate with added Grunt task managment functionality. It gives you an easy start to any web project by including the popular Bootstrap Initializr and also adds the workflow power of Grunt to output your code minified and easily organized.",
+  "name": "om-test",
+  "version": "0.0.1",
+  "description": "OM test for the front-end job opening",
   "main": "Gruntfile.js",
   "dependencies": {
     "grunt-contrib-concat": "^0.5.0",
@@ -17,17 +17,14 @@
     "grunt-autoprefixer": "^3.0.4",
     "grunt-contrib-imagemin": "^2.0.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tonyspiro/grunt-html5-boilerplate"
+    "url": "https://github.com/ashishjain316/om"
   },
-  "author": "Tony Spiro <tspiro@tonyspiro.com> (http://tonyspiro.com/)",
+  "author": "Ashish Jain <ashishjain316@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tonyspiro/grunt-html5-boilerplate/issues"
+    "url": "https://github.com/ashishjain316/om/issues"
   },
-  "homepage": "https://github.com/tonyspiro/grunt-html5-boilerplate"
+  "homepage": "https://github.com/ashishjain316/om"
 }
