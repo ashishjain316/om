@@ -1,0 +1,145 @@
+@import "variables";
+// Add main less styles here
+
+body {
+    padding-top: 70px;
+    background-color: @black;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+img {
+	max-width: 100%;
+}
+section {
+	padding: 60px 0;
+}
+@media @mobile-sm {
+	.col-sm-4 {
+	    margin-bottom: 30px;
+	}
+}
+.modal-content {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+.modal-content img {
+	width: 100%;
+}
+button.close {
+	position: absolute;
+    right: 0;
+    top: -5px;
+    color: @white;
+    padding: 10px;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+button.close:focus, button.close:hover {
+    color: @white;
+    filter: alpha(opacity=70);
+    opacity: .7;
+}
+.omtest {
+    color: @white;
+    	a {
+    		color: @white;
+    		transition: color .3s ease;
+    	}
+    	a:hover, a:focus {
+    		color: @red;
+    		text-decoration: none;
+    	}
+	    h3 {
+		    text-transform: uppercase;
+		    font-weight: 200;
+		    padding-bottom: 20px;
+		    margin-bottom: 30px; 
+		    border-bottom: 1px solid;
+	    }
+	    h6 {
+	    	text-transform: uppercase;
+	    	color: @red;
+	    }
+	    ul {
+	    	list-style-type: none;
+	    	padding-left: 0;
+	    }
+	    li {
+	    	position: relative;
+	    	padding-left: 15px;
+	    }
+	    li:before {
+	    	content: '-';
+	    	position: absolute;
+	    	left: 0;
+	    }
+	    .top-buffer {
+	    	margin-top: 30px;
+	    }
+	    .image-col {
+	    	text-align: center;
+	    }
+	    .image-col img:not(:first-child) {
+	    	margin-top: 30px;
+	    }
+	    .image-col img {
+	    	width: 100%;
+			cursor: pointer;
+			transition: transform .3s ease;
+	    }
+	    .image-col img:hover {
+	    	transform: translateY(-10px);
+	    }
+	    #experience .row {
+		   	display: table;
+		   	width: 100%;
+		}
+	    @media @tab-above {
+		    .image-col, 
+		    .text-col {
+		    	display: table-cell;;
+		    	vertical-align: top;
+		    }
+		}
+	    @media @tab-above {
+		    .image-col, 
+		    .text-col {
+	    		width: 33.3333%;
+		    }
+		}
+	    @media @mobile-sm, @tabs {
+	    	#experience .row {
+	    		margin-left: 0;
+	    	}
+	    	.image-col img {
+	    		width: auto;
+	    	}
+	    	.text-col {
+	    		display: table-header-group;
+	    	}
+	    	.image-col {
+	    		margin-top: 30px;
+			}
+	    }
+		#colours {
+			h3 {
+				display: inline-block;
+			}
+			.image-box {
+				cursor: pointer;
+				transition: transform .3s ease;
+			}
+			.image-box:hover {
+				transform: translateY(-10px);
+			}
+		}
+	}	
+footer {
+	background-color: @jetblack;
+	p {
+		margin-bottom: 0;
+		padding: 5px 15px;
+	}
+}
